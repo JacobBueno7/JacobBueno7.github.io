@@ -6,6 +6,7 @@ html:focus-within {
 body {
     scroll-behavior: smooth;
     width: 1920px;
+    height: 1080px;
 }
 div a {
     text-decoration: none;
@@ -35,7 +36,7 @@ div.third {
     background-color: #B5B0C9;
     height: 91%;
     top: 574px;
-
+    scroll-margin-top: 85px;
 }
 ul {
     list-style-type: None;
