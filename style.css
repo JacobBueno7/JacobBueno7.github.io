@@ -6,7 +6,7 @@ html:focus-within {
 body {
     scroll-behavior: smooth;
     width: 1920px;
-    height: 1080px;
+    margin: 0 auto;
 }
 div a {
     text-decoration: none;
@@ -19,7 +19,7 @@ div.first {
     margin: 0;
     height: 100%;
     text-align: center;
-    z-index: 1;
+    z-index: 3;
     
 
 }
@@ -37,6 +37,25 @@ div.third {
     height: 91%;
     top: 574px;
     scroll-margin-top: 85px;
+    z-index: 3;
+}
+div.abox {
+    background-color: #B5B0C9;
+    position: relative;
+    top:1em;
+    height:600px;
+    width: 1400px;
+    left: 150px;
+    z-index: 3;
+}
+div.abox2 {
+    background-color: #3E66A3;
+    position: relative;
+    top:4em;
+    height:600px;
+    width: 1600px;
+    left: 150px;
+    z-index: 3;
 }
 ul {
     list-style-type: None;
@@ -122,22 +141,7 @@ h1.title2 {
 h1.title2:hover {
     color:#3E66A3;
 }
-div.abox {
-    background-color: #B5B0C9;
-    position: relative;
-    top:1em;
-    height:600px;
-    width: 1400px;
-    left: 150px;
-}
-div.abox2 {
-    background-color: #3E66A3;
-    position: relative;
-    top:4em;
-    height:600px;
-    width: 1600px;
-    left: 150px;
-}
+
 div.ap1 {
     position:relative;
     font-family: 'Wix Madefor Display', sans-serif;
@@ -307,6 +311,7 @@ iframe.interpreter {
     width:1920px;
     scroll-behavior: smooth;
     overflow-y: scroll;
+    min-width: 1920px;
 }
 #home {
 }
