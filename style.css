@@ -5,6 +5,7 @@ html:focus-within {
 }
 body {
     scroll-behavior: smooth;
+    width: 1920px;
 }
 div a {
     text-decoration: none;
