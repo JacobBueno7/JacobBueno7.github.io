@@ -20,7 +20,7 @@ div.main {
     margin: 0;
     text-align: center;
     overflow: hidden;
-    height:55rem;
+    height:70rem;
 
 }
 
@@ -303,7 +303,7 @@ li a:hover {
 }
 div.name span{
     position: relative;
-    top: 20rem;
+    top: 23rem;
     font-family: 'Wix Madefor Display', sans-serif;
     font-size:4em;
     padding:0;
@@ -319,7 +319,7 @@ div.name span:hover {
 }
 div.subtitle {
     position: relative;
-    top: 20rem;
+    top: 23rem;
     font-family: 'Wix Madefor Display', sans-serif;
     text-align: center;
     font-size:30px;
