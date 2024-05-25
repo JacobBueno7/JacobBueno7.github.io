@@ -1,5 +1,5 @@
 const experienceDict = {
-    "Student Data Analyst": "In this position I will be analyzing...",
+    "Undergraduate Data Analyst": "In this position I will be analyzing...",
     "Financial Aid Student Assistant": "In this position I work on various projects...",
     "Student Researcher": "During my time in this research role I...",
     "Project Manager": "A student-run non-profit organization on...",
@@ -7,7 +7,7 @@ const experienceDict = {
 };
 
 const experienceHoverDict = {
-    "Student Data Analyst": "In this position I will be analyzing and visualizing different types of data to infer useful information for the finance department of the Haas School of Business. I also work on updating their main website.",
+    "Undergraduate Data Analyst": "In this position I will be analyzing and visualizing different types of data to infer useful information for the finance department of the Haas School of Business. I also work on updating their main website.",
     "Financial Aid Student Assistant": "In this position I work on various projects related to data analysis and management, as well as managing the website for the Financial Aid office of the Haas School of Business.",
     "Student Researcher": "During my time in this research role I designed and trained a GPT model to fit the daily needs of project managers from things like team management to the fruition of ideas.",
     "Project Manager": "A student-run non-profit organization on campus that is devoted to teaching high school students about coding and robotics through fun and interesting competitions between multiple schools. I am a Project Manager for the software team called Shepherd, our responsibilities can include the scoreboard, moving parts on the field, buttons, sensors, pressure plates, etc. as well as the software for creating and hosting the matches.",
@@ -29,10 +29,3 @@ for (let i=0; i<experienceItems.length; i++) {
         paragraph.innerHTML = experienceDict[header.innerHTML];
     })
 }
-
-
-
-
-// function expandExperienceCard() {
-//     header = document.get
-// }
