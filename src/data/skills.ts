@@ -1,0 +1,18 @@
+export const techniques: string[] = [
+  'Data Engineering',
+  'API Design',
+  'Machine Learning',
+  'Deep Learning',
+  'Deep Neural Networks',
+  'Reinforcement Learning',
+  'Computer Vision',
+  'Linear Regression',
+  'Logistic Regression',
+  'Clustering',
+  'Data Analytics',
+  'Data Modeling',
+  'Data Visualization',
+  'Database Management',
+  'NoSQL',
+  'Probability & Statistics',
+];
