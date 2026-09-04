@@ -1,0 +1,26 @@
+import { ThemeProvider } from '@/context/ThemeContext';
+import { Nav } from '@/components/layout/Nav';
+import { Footer } from '@/components/layout/Footer';
+import { Hero } from '@/components/sections/Hero';
+import { About } from '@/components/sections/About';
+import { Experience } from '@/components/sections/Experience';
+import { Skills } from '@/components/sections/Skills';
+import { Projects } from '@/components/sections/Projects';
+
+function App() {
+  return (
+    <ThemeProvider>
+      <Nav />
+      <main>
+        <Hero />
+        <About />
+        <Experience />
+        <Skills />
+        <Projects />
+      </main>
+      <Footer />
+    </ThemeProvider>
+  );
+}
+
+export default App;
